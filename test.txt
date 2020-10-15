@@ -1,0 +1,42 @@
+hp@DESKTOP-HI5UPCO MINGW64 /e/test
+$ git init
+Initialized empty Git repository in E:/test/.git/
+
+hp@DESKTOP-HI5UPCO MINGW64 /e/test (master)
+$ git remote add origin git@github.com:chetan-pixel/test.git
+
+hp@DESKTOP-HI5UPCO MINGW64 /e/test (master)
+$ git add .
+
+hp@DESKTOP-HI5UPCO MINGW64 /e/test (master)
+$  git commit -m "addd all working files for tony"
+[master (root-commit) 4878cdd] addd all working files for tony
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 test.txt
+
+hp@DESKTOP-HI5UPCO MINGW64 /e/test (master)
+$ git config --global user.email "testsetu@gmail.com"
+
+hp@DESKTOP-HI5UPCO MINGW64 /e/test (master)
+$ git config --global user.name chetan-pixel
+
+hp@DESKTOP-HI5UPCO MINGW64 /e/test (master)
+$ git commit -m "addd all working files for tony"
+On branch master
+nothing to commit, working tree clean
+
+hp@DESKTOP-HI5UPCO MINGW64 /e/test (master)
+$ git push -u origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 226 bytes | 226.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: This repository moved. Please use the new location:
+remote:   git@github.com:chetan-pixel/Test.git
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/chetan-pixel/Test/pull/new/master
+remote:
+To github.com:chetan-pixel/test.git
+ * [new branch]      master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
